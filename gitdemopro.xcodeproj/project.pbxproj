@@ -13,6 +13,8 @@
 		E94D44591CD70DC000AF2782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94D44571CD70DC000AF2782 /* Main.storyboard */; };
 		E94D445B1CD70DC000AF2782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94D445A1CD70DC000AF2782 /* Assets.xcassets */; };
 		E94D445E1CD70DC000AF2782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94D445C1CD70DC000AF2782 /* LaunchScreen.storyboard */; };
+		E94D44681CD7110D00AF2782 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E94D44661CD7110D00AF2782 /* TestViewController.m */; };
+		E94D44691CD7110D00AF2782 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94D44671CD7110D00AF2782 /* TestViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		E94D445A1CD70DC000AF2782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E94D445D1CD70DC000AF2782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E94D445F1CD70DC000AF2782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E94D44651CD7110D00AF2782 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		E94D44661CD7110D00AF2782 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		E94D44671CD7110D00AF2782 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				E94D445C1CD70DC000AF2782 /* LaunchScreen.storyboard */,
 				E94D445F1CD70DC000AF2782 /* Info.plist */,
 				E94D444E1CD70DC000AF2782 /* Supporting Files */,
+				E94D44651CD7110D00AF2782 /* TestViewController.h */,
+				E94D44661CD7110D00AF2782 /* TestViewController.m */,
+				E94D44671CD7110D00AF2782 /* TestViewController.xib */,
 			);
 			path = gitdemopro;
 			sourceTree = "<group>";
@@ -138,6 +146,7 @@
 			files = (
 				E94D445E1CD70DC000AF2782 /* LaunchScreen.storyboard in Resources */,
 				E94D445B1CD70DC000AF2782 /* Assets.xcassets in Resources */,
+				E94D44691CD7110D00AF2782 /* TestViewController.xib in Resources */,
 				E94D44591CD70DC000AF2782 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +160,7 @@
 			files = (
 				E94D44561CD70DC000AF2782 /* ViewController.m in Sources */,
 				E94D44531CD70DC000AF2782 /* AppDelegate.m in Sources */,
+				E94D44681CD7110D00AF2782 /* TestViewController.m in Sources */,
 				E94D44501CD70DC000AF2782 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +310,7 @@
 				E94D44641CD70DC000AF2782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
